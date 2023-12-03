@@ -1,5 +1,7 @@
 import user from '../assets/user.json';
 import data from '../assets/data.json';
+import friends from '../assets/friends.json';
+import { FriendList } from './task3/FriendList';
 import { Statistics } from './task2/Statistics';
 import { Profile } from './task1/Profile';
 
@@ -29,6 +31,8 @@ export const App = () => {
       likes={user.stats.likes} />
 
     <Statistics title="Upload stats" stats={data} />
+
+    <FriendList friends={friends} />
     </div>
   );
 };
