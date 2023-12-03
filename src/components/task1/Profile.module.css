@@ -55,7 +55,7 @@
     border-radius: 0 0 5px 5px;
 }
 
-.stats>li {
+.statsItem {
     width: calc(100% / 3);
     display: flex;
     flex-direction: column;
@@ -63,8 +63,13 @@
     justify-content: center;
     background-color: #E9EBF1;
 }
+/* .statsItem:hover {
+    transform: scale(1.05);
+    box-shadow: 1px 1px 4px 4px rgba(0, 0, 0, 0.6);
+    cursor: pointer;
+} */
 
-.stats>li:not(:last-child) {
+.statsItem:not(:last-child) {
     border-left: 2px solid #ddd;
     border-right: 2px solid #ddd;
 }

@@ -5,11 +5,11 @@
     box-shadow: 1px 1px 6px 4px rgba(0, 0, 0, 0.12);
     border-radius: 5px;
 }
-.statistics:hover {
+/* .statistics:hover {
     transform: scale(1.05);
     box-shadow: 1px 1px 6px 4px rgba(0, 0, 0, 0.2);
     cursor: pointer;
-}
+} */
 .title {
     text-transform: uppercase;
     text-align: center;
