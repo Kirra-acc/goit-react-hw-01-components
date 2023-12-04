@@ -6,9 +6,7 @@ export const FriendList = ({friends}) => {
             {friends.map(friend => {
                 return (
                     <li key={friend.id} className={s.friendItem}>
-                    <span className={s.friendStatus
-                    ? s.onLine
-                    : s.offLine}>{friend.isOnline}</span>
+                    <span style={{ backgroundColor: friend.isOnline ? "green" : "red" }} className={s.friendStatus}></span>
                     <img
                       src={friend.avatar}
                       alt="Friend avatar"

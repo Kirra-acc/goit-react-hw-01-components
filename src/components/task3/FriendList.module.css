@@ -30,21 +30,23 @@
     cursor: pointer;
 }
 
-/* .friendStatus {
+.friendStatus {
     display: block;
     width: 20px;
     height: 20px;
     border-radius: 50%;
-} */
-.offLine {
+    margin-left: 25px;
+}
+/* .offLine {
     outline: 10px solid red;
     margin-left: 25px;
     }
     
 .onLine {
     outline: 10px solid green;
+    border-radius: 50%;
     margin-left: 25px;
-}
+} */
 .friendAvatar {
     margin-left: 30px;
     width: 50px;
