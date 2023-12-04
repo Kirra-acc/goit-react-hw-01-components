@@ -4,7 +4,7 @@ export const Statistics = ({ title, stats }) => {
   return (
     <>
     <section className={s.statistics}>
-        <h2 className={s.title}>{title}</h2>
+        {title ? <h2 className={s.title}>{title}</h2> : null}
 
         <ul className={s.statList}>
             {stats.map(stat => {
