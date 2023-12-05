@@ -3,6 +3,7 @@ import data from '../assets/data.json';
 import friends from '../assets/friends.json';
 import transactions from '../assets/transactions.json';
 import { TransactionHistory } from './TransactionHistory/TransactionHistory';
+import { Transactions } from './TransactionHistory/Transactions';
 import { FriendList } from './FriendList/FriendList';
 import { Statistics } from './Statistics/Statistics';
 import { Profile } from './Profile/Profile';
@@ -35,7 +36,10 @@ export const App = () => {
 
     <FriendList friends={friends} />
 
-    <TransactionHistory items={transactions}/>
+    {/* <TransactionHistory items={transactions}/> */}
+    <TransactionHistory>
+      <Transactions items={transactions}/>
+    </TransactionHistory>;
     </div>
   );
 };
