@@ -52,6 +52,7 @@ import s from './TransactionHistory.module.css';
 //   );
 // }
 
+// Option 3 --- AI helped
 export const TransactionHistory = ({ children }) => {
   return (
     <table className={s.transactionHistory}>
